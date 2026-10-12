@@ -1,0 +1,31 @@
+{
+  "name": "@qbert0/view360-payments",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "exports": {
+    ".": "./nuxt.config.ts",
+    "./lib/*": "./lib/*"
+  },
+  "files": [
+    "components",
+    "lib",
+    "server",
+    "nuxt.config.ts",
+    "payments.css",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qbert0/view360-payments.git"
+  },
+  "peerDependencies": {
+    "nuxt": "^3.15.0",
+    "vue": "^3.5.0"
+  }
+}

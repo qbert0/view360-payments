@@ -1,4 +1,4 @@
-name: Publish View360 Platform
+name: Publish View360 Payments
 
 on:
   workflow_dispatch:
